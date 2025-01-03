@@ -131,6 +131,10 @@ After you've generated some content with Copilot, you should have an `index.html
 
 ### Step 7: Create a repository
 
+<details>
+<Summary>Click to expand</Summary>
+<br>
+
 1. Navigate to [github.com](https://github.com/)
 2. In the top right corner, click your profile picture
 3. Select `Your repositories`
@@ -143,6 +147,8 @@ After you've generated some content with Copilot, you should have an `index.html
 
 7. Check the box next to `Add a README file`
 8. Click `Create repository`
+
+</details>
 
 ### Step 8: Publish your site with GitHub Pages
 
