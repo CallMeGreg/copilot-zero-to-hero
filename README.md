@@ -167,7 +167,7 @@ No matter what file format you're working with (`.txt`, `.md`, `.yml`) Copilot c
 
 </details>
 
-## Step 6: Create an issue template
+## Step 7: Create an issue template
 <details>
 <Summary>Click to expand</Summary>
 <br>
@@ -175,7 +175,7 @@ No matter what file format you're working with (`.txt`, `.md`, `.yml`) Copilot c
 
 </details>
 
-## Step 7: Create a slash command
+## Step 8: Create a slash command
 <details>
 <Summary>Click to expand</Summary>
 <br>
