@@ -91,35 +91,32 @@ If you already have VS Code, make sure you update to the latest version:
 <Summary>Click to expand</Summary>
 <br>
 
-At GitHub, I find myself writing A LOT of markdown between README's, issues, and discussions.
+### Draft with Copilot
 
-This is one area where Copilot can help take a lot of the initial draft and reformatting off of your plate.
+### Reformat with Copilot
+
+At GitHub, I find myself writing _a lot_ of markdown between README's, issues, and discussions. However I prefer to take notes in Google Docs, and copying/pasting between the two can be _really_ ugly.
+
+This is one area where Copilot can really help take the burden of reformatting off your plate.
+
+When converting something to markdown, try the following prompt:
+
+```
+Can you convert the following notes into markdown format?
+Use bulleted lists, use formatting to bold important parts, and include emojis in titles where appropriate.
+
+<Paste in your raw notes here>
+```
 
 </details>
 
-## Step 5: Creating your website
+## Step 5: Copilot reviews
 
 <details>
 <Summary>Click to expand</Summary>
 <br>
 
-To keep things simple, we'll have Copilot stick to programming languages that don't require any additional frameworks or dependencies.
-
-So for our scenario, we'll use the following programming languages:
-
-- **HTML** for the website's content
-- **JavaScript** for the website's functionality
-- **CSS** for the website's styling
-
-These languages won't require any additional installations to get started.
-
-Let's be descriptive with our first prompt. Our goal is to get something that works, that we can refine with additional prompts.
-
-For example:
-
-```
-I want to create a website from scratch using HTML, JavaScript, and CSS. This will be my personal website with a header, a section for my professional career, a section for my hobbies, and a section for my family.
-```
+No matter what file format you're working with (`.txt`, `.md`, `.yml`) Copilot can review your work and provide feedback.
 
 </details>
 
