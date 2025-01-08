@@ -131,7 +131,7 @@ Which looked like this in GitHub:
 
 At GitHub, I find myself writing _a lot_ of markdown between README's, issues, and discussions. However I prefer to take notes in Google Docs, and copying/pasting between the two can be _really_ ugly.
 
-This is one area where Copilot can really help take the burden of reformatting off your plate.
+This is an area where Copilot can help take the burden of reformatting off your plate.
 
 When converting something to markdown, try the following prompt:
 
