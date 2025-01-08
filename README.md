@@ -85,13 +85,15 @@ If you already have VS Code, make sure you update to the latest version:
 
 </details>
 
-## Step 4: Write markdown
+## Step 4: Writing markdown
 
 <details>
 <Summary>Click to expand</Summary>
 <br>
 
-This one is fairly straightforward, yet very powerful. Instead of writing out long comments or documentation in GitHub READMEs, Issues, and Discussions, you can have Copilot help you as you type by working in your IDE.
+At GitHub, I find myself writing A LOT of markdown between README's, issues, and discussions.
+
+This is one area where Copilot can help take a lot of the initial draft and reformatting off of your plate.
 
 </details>
 
