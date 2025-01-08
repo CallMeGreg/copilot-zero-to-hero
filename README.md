@@ -85,17 +85,15 @@ If you already have VS Code, make sure you update to the latest version:
 
 </details>
 
-## Step 4: Writing markdown
+## Step 4: Draft markdown content
 
 <details>
 <Summary>Click to expand</Summary>
 <br>
 
-### Draft with Copilot
-
 Sometimes you know what you want to cover, but not how you want to present it. I find that it can be easier tweaking something vs. designing from scratch.
 
-In these cases when you want to create a markdown outline, try a prompt like this:
+For example, maybe you want to create a new README for your team's repository. Here are some prompts that got me to a great outline:
 
 ```
 Create a template markdown file to be used as the readme for my team's GitHub repository.
@@ -103,7 +101,33 @@ It should include sections for our mission, what we do, and our team's pictures 
 Include examples in each section.
 ```
 
-### Reformat with Copilot
+```
+Update the team picture to link to CallMeGreg's github profile picture
+```
+
+```
+In the team pictures section, change the pictures to a table that also includes columns for their name, handle, and email address
+```
+
+```
+Adjust the size of the picture to be smaller
+```
+
+After just a few back and forths, I was left with this markdown content:
+
+![Screenshot 2025-01-08 at 6 09 00 PM](https://github.com/user-attachments/assets/ceea0f68-9153-4d01-94d7-b846192bc2a8)
+
+Which looked like this in GitHub:
+
+![Screenshot 2025-01-08 at 6 09 32 PM](https://github.com/user-attachments/assets/6e0384ec-61e4-4ed9-b5c5-3962c6fbc61f)
+
+</details>
+
+## Step 5: Reformat into markdown
+
+<details>
+<Summary>Click to expand</Summary>
+<br>
 
 At GitHub, I find myself writing _a lot_ of markdown between README's, issues, and discussions. However I prefer to take notes in Google Docs, and copying/pasting between the two can be _really_ ugly.
 
@@ -118,9 +142,22 @@ Use bulleted lists, use formatting to bold important parts, and include emojis i
 <Paste in your raw notes here>
 ```
 
+For example, starting with a Google Doc that looks like this:
+
+![Screenshot 2025-01-08 at 6 14 36 PM](https://github.com/user-attachments/assets/68478d7f-32b1-4615-b53f-d3c068174e6c)
+
+This is what a simple copy and paste into GitHub Issues looks like ☹️
+
+![Screenshot 2025-01-08 at 6 17 02 PM](https://github.com/user-attachments/assets/1bfc51a8-80fd-4ab9-9ed5-ec2ba45bd228)
+
+
+And here's what it looks like after using the simple Copilot prompt from above 🤩
+
+![Screenshot 2025-01-08 at 6 18 28 PM](https://github.com/user-attachments/assets/540fb3b8-9f82-428d-a2f4-1a81675e0b08)
+
 </details>
 
-## Step 5: Copilot reviews
+## Step 6: Copilot reviews
 
 <details>
 <Summary>Click to expand</Summary>
@@ -130,43 +167,18 @@ No matter what file format you're working with (`.txt`, `.md`, `.yml`) Copilot c
 
 </details>
 
-## Step 6: View your website locally
-
+## Step 6: Create an issue template
 <details>
 <Summary>Click to expand</Summary>
 <br>
 
-After you've generated some content with Copilot, you should have an `index.html` file.
 
 </details>
 
-### Step 7: Create a repository
-
+## Step 7: Create a slash command
 <details>
 <Summary>Click to expand</Summary>
 <br>
 
-1. Navigate to [github.com](https://github.com/)
-2. In the top right corner, click your profile picture
-3. Select `Your repositories`
-4. Select the green `New` button
-5. Set `Owner` to your handle (e.g. `CallMeGreg`)
-6. Set the repository name to <YOUR_HANDLE>.github.io (e.g. `CallMeGreg.github.io`)
-
-> [!WARNING]
-> The repository name must follow this format or you won't be able to make your website public
-
-7. Check the box next to `Add a README file`
-8. Click `Create repository`
-
-</details>
-
-### Step 8: Publish your site with GitHub Pages
-
-<details>
-<Summary>Click to expand</Summary>
-<br>
-
-GitHub offers a service called GitHub Pages that can be used to host websites. Each GitHub account can host one site for free.
 
 </details>
