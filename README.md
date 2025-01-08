@@ -1,6 +1,6 @@
 # Welcome 👋
 
-Your mission, should you choose to accept it, is to create a website from scratch through the help of GitHub Copilot 🚀
+This guide was created for people in non-developer roles who want to start using Copilot in their day to day.
 
 ## Step 1: Install, Update, and Setup Visual Studio Code
 
@@ -8,7 +8,7 @@ Your mission, should you choose to accept it, is to create a website from scratc
 <Summary>Click to expand</Summary>
 <br>
 
-To get started, make sure you have the latest version of Visual Studio Code (VS Code) installed on your laptop.
+Now that GitHub Copilot is available in GitHub.com, you don't _need_ to use an Integrated Developer Environment (IDE) like Visual Studio Code (VS Code) to use Copilot. However, VS Code offers some customization and functionality that you can't get in GitHub.com today.
 
 If you don't have VS Code, you can [download it here](https://code.visualstudio.com/download).
 
@@ -19,9 +19,9 @@ If you already have VS Code, make sure you update to the latest version:
 
 ![Screenshot 2025-01-03 at 3 04 30 PM](https://github.com/user-attachments/assets/efb6bf41-b37c-4319-aea6-261591be459f)
 
-- In VS Code, open a new folder in a location that will be easy to access later, like your desktop.
-- Select `File` --> `Open Folder...`
-- If needed, create a new folder so that you're working from a blank location
+- In VS Code, let's create a new workspace to work through all of our exercises:
+  - Select `File` --> `Open Folder...`
+  - If needed, create a new folder so that you're working from a clean slate
 
 ![Screenshot 2025-01-03 at 3 52 28 PM](https://github.com/user-attachments/assets/1df15209-5cbe-4681-8092-312e700e2507)
 
@@ -72,24 +72,26 @@ If you already have VS Code, make sure you update to the latest version:
 - If Copilot does not respond, or if you see an error, double check that:
   - You are authenticated with a GitHub account that has a Copilot license (click the `Accounts` icon at the bottom left)
   - You have the latest version of VS Code (click `Code` --> `Check for updates...`)
-  - You have the latest version of the Copilot Extension (click `Extensions` --> `GitHub Copilot` --> `Update`)
+  - You have the latest version of the Copilot Extension (click `Extensions` --> `GitHub Copilot` --> `Update` or `Restart Extensions`)
   - You have restarted VS Code after applying any updates (click the `Manage` gear icon at the bottom left)
  
 - Copilot has some pre-defined shortcuts called _**slash commands**_. You can view all of the available slash commands by typing `/help`.
 
 ![Screenshot 2025-01-03 at 3 47 38 PM](https://github.com/user-attachments/assets/be10b5c5-95d3-424a-9812-985d03067a60)
 
-- Two of the slash commands we'll want to use are `/explain` and `/new`.
+- Two very helpful slash commands are `/new` and `/explain`.
+  - `/new` is great when you need to create many files or a folder structure for a new project.
+  - `/explain` is a quick way to have Copilot teach you more about what it generated, or to have Copilot summarize a large block of text/code.
 
 </details>
 
-## Step 4: Your first prompt
+## Step 4: Write markdown
 
 <details>
 <Summary>Click to expand</Summary>
 <br>
 
-
+This one is fairly straightforward, yet very powerful. Instead of writing out long comments or documentation in GitHub READMEs, Issues, and Discussions, you can have Copilot help you as you type by working in your IDE.
 
 </details>
 
