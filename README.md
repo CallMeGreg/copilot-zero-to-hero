@@ -146,7 +146,7 @@ For example, starting with a Google Doc that looks like this:
 
 ![Screenshot 2025-01-08 at 6 14 36 PM](https://github.com/user-attachments/assets/68478d7f-32b1-4615-b53f-d3c068174e6c)
 
-This is what a simple copy and paste into GitHub Issues looks like ☹️
+This is what a direct copy and paste into GitHub Issues looks like ☹️
 
 ![Screenshot 2025-01-08 at 6 17 02 PM](https://github.com/user-attachments/assets/1bfc51a8-80fd-4ab9-9ed5-ec2ba45bd228)
 
