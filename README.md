@@ -93,6 +93,16 @@ If you already have VS Code, make sure you update to the latest version:
 
 ### Draft with Copilot
 
+Sometimes you know what you want to cover, but not how you want to present it. I find that it can be easier tweaking something vs. designing from scratch.
+
+In these cases when you want to create a markdown outline, try a prompt like this:
+
+```
+Create a template markdown file to be used as the readme for my team's GitHub repository.
+It should include sections for our mission, what we do, and our team's pictures and contact information.
+Include examples in each section.
+```
+
 ### Reformat with Copilot
 
 At GitHub, I find myself writing _a lot_ of markdown between README's, issues, and discussions. However I prefer to take notes in Google Docs, and copying/pasting between the two can be _really_ ugly.
