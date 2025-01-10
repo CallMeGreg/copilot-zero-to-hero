@@ -225,20 +225,3 @@ With the prompt from above, I ended up with a new issue template that looks like
 ![Screenshot 2025-01-10 at 11 08 55 AM](https://github.com/user-attachments/assets/2fea6562-141d-41ce-900f-6e42731deaa6)
 
 </details>
-
-## Step 8: Create a slash command
-<details>
-<Summary>Click to expand</Summary>
-<br>
-
-Just liike how we have slash commands in Copilot Chat, we can create our own slash commands that can be used in GitHub Issues and Discussions to add pre-baked forms to an issue or issue comment.
-
-Similar to Issue Templates, Copilot can help create a lot of the boilerplate code for us, and we can polish off the command with any small details that need to be tweaked.
-
-Start by prompting Copilot with a description of what the slash command should include:
-
-```
-
-```
-
-</details>
