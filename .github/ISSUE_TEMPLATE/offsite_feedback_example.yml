@@ -10,7 +10,8 @@ body:
     id: overall-rating
     attributes:
       label: "Overall Rating (1-10)"
-      description: "Please rate the experience from 1-10."
+      description: "Please rate the experience."
+    validations:
       required: true
 
   - type: textarea
@@ -18,6 +19,7 @@ body:
     attributes:
       label: "What went well?"
       description: "Share what you found helpful or enjoyable."
+    validations:
       required: false
 
   - type: textarea
@@ -25,6 +27,7 @@ body:
     attributes:
       label: "What could be improved?"
       description: "Suggest ideas for next time."
+    validations:
       required: false
 
   - type: dropdown
