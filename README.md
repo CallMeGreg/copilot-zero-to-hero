@@ -163,7 +163,39 @@ And here's what it looks like after using the simple Copilot prompt from above �
 <Summary>Click to expand</Summary>
 <br>
 
-No matter what file format you're working with (`.txt`, `.md`, `.yml`) Copilot can review your work and provide feedback.
+On top of helping you write and format content, Copilot can review content for typos, style, and clarity.
+
+We can also customize what Copilot looks for in its reviews by specifying review instructions.
+
+Navigate to the VS Code `Extensions` tab and search for Copilot. Then click the `Manage` gear icon next to GitHub Copilot Chat.
+
+![Screenshot 2025-01-10 at 10 33 25 AM](https://github.com/user-attachments/assets/43be0441-1793-4ff2-b535-13456c45790c)
+
+Scroll down to the section labeled `Github › Copilot › Chat › Review Selection: Instructions`. Be sure to find "Review Selection", and not one of the other instructions sections for other things like code generation and test generation.
+
+Click `Edit in settings.json`.
+
+![Screenshot 2025-01-10 at 10 34 33 AM](https://github.com/user-attachments/assets/df87efc1-e9d4-4265-b9af-4babe768efc8)
+
+If you're offered a quick selection, choose one of the options that start with `"text"`, then modify the instructions to your liking. Or manually update the `github.copilot.chat.reviewSelection.instructions` section to look like this:
+
+```
+    "github.copilot.chat.reviewSelection.instructions": [
+    {
+        "text": "Look for spelling and grammar mistakes, refine for clarity, and add emojis where appropriate."
+    }
+    ],
+```
+
+Save the `settings.json` file and go back to a file that you would like to review.
+
+Highlight all of the text that wou want Copilot to review, then right click and select `Copilot` --> `Review and Comment`
+
+![Screenshot 2025-01-10 at 10 50 46 AM](https://github.com/user-attachments/assets/4d985674-6d23-4543-ba02-636959349c54)
+
+You can quickly apply or discard suggestions with the `Apply` and `Discard` buttons, jump between suggestions with the arrows, move a comment to that Chat window, or discard all suggestions and return to edit mode.
+
+![Screenshot 2025-01-10 at 10 53 10 AM](https://github.com/user-attachments/assets/82a81645-29fc-422e-b166-0f52e80b50db)
 
 </details>
 
@@ -172,6 +204,25 @@ No matter what file format you're working with (`.txt`, `.md`, `.yml`) Copilot c
 <Summary>Click to expand</Summary>
 <br>
 
+Issue templates are a great way to streamline collection of GitHub Issues in a consistent fashion.
+
+Copilot can help elevate your issue template game by providing the boilerplate code needed for [issue forms](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms), rather than using markdown / markdown comments in your templates.
+
+Start by prompting Copilot with a rough outline of what you want to achieve, being as specific as possible about default labels, assignees, and the form fields you want to include.
+
+```
+I want to create a GitHub issue template using an issue form.
+The form will be used to capture feedback about our recent team offsite.
+Include the default label "Offsite Feedback" and assign the issue to CallMeGreg.
+The form should have fields for an overall rating 1-10, a text box for what went well, and a text box for what could be improved next time.
+Also, include a required dropdown selection for which specific team the user is a part of: Engineering, Product, or Design.
+```
+
+Remember, Copilot might not get it exactly right the first time. Ask follow up questions to fix errors, adjust styling, add ghost text, change the order of the fields...you're the pilot!
+
+With the prompt from above, I ended up with a new issue template that looks like this:
+
+![Screenshot 2025-01-10 at 11 08 55 AM](https://github.com/user-attachments/assets/2fea6562-141d-41ce-900f-6e42731deaa6)
 
 </details>
 
@@ -180,5 +231,14 @@ No matter what file format you're working with (`.txt`, `.md`, `.yml`) Copilot c
 <Summary>Click to expand</Summary>
 <br>
 
+Just liike how we have slash commands in Copilot Chat, we can create our own slash commands that can be used in GitHub Issues and Discussions to add pre-baked forms to an issue or issue comment.
+
+Similar to Issue Templates, Copilot can help create a lot of the boilerplate code for us, and we can polish off the command with any small details that need to be tweaked.
+
+Start by prompting Copilot with a description of what the slash command should include:
+
+```
+
+```
 
 </details>
