@@ -181,9 +181,9 @@ If you're offered a quick selection, choose one of the options that start with `
 
 ```
     "github.copilot.chat.reviewSelection.instructions": [
-    {
-        "text": "Look for spelling and grammar mistakes, refine for clarity, and add emojis where appropriate."
-    }
+        {
+            "text": "Look for spelling and grammar mistakes, refine for clarity, and add emojis where appropriate."
+        }
     ],
 ```
 
