@@ -1,0 +1,26 @@
+name: Issue Template
+description: Use this template to report an issue.
+title: ''
+labels: ''
+assignees: ''
+
+body:
+  - type: dropdown
+    id: team
+    attributes:
+      label: Team
+      description: Select the team this issue is related to
+      options:
+        - Team A
+        - Team B
+        - Team C
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue in detail
+      placeholder: Provide a detailed description of the issue
+      value: ''
+      required: true
