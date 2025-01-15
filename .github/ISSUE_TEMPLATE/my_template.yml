@@ -1,8 +1,8 @@
 name: Issue Template
 description: Use this template to report an issue.
-title: ''
-labels: ''
-assignees: ''
+title: Issue Title
+labels: []
+assignees: []
 
 body:
   - type: dropdown
@@ -14,7 +14,6 @@ body:
         - Team A
         - Team B
         - Team C
-      required: true
 
   - type: textarea
     id: description
@@ -22,5 +21,3 @@ body:
       label: Description
       description: Describe the issue in detail
       placeholder: Provide a detailed description of the issue
-      value: ''
-      required: true
