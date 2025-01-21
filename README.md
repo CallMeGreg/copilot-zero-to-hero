@@ -189,7 +189,7 @@ If you're offered a quick selection, choose one of the options that start with `
 
 Save the `settings.json` file and go back to a file that you would like to review.
 
-Highlight all of the text that wou want Copilot to review, then right click and select `Copilot` --> `Review and Comment`
+Highlight all of the text that you want Copilot to review, then right click and select `Copilot` --> `Review and Comment`
 
 ![Screenshot 2025-01-10 at 10 50 46 AM](https://github.com/user-attachments/assets/4d985674-6d23-4543-ba02-636959349c54)
 
